@@ -31,7 +31,6 @@ class News extends Component {
             });  
     }
 
-
     renderItems(){
         if (!this.state.error){
             return this.state.news.map((item) => (
